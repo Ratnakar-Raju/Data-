@@ -1,0 +1,76 @@
+Traffic Accident Severity Prediction
+
+Project Overview:
+
+The Traffic Accident Severity Prediction project aims to develop a machine-learning model that can predict the severity of traffic accidents based on various factors such as weather conditions, road type, time of day, and vehicle type. The primary objective is to assist traffic management authorities, insurance companies, and public safety organizations in reducing accident-related risks by predicting and mitigating the impact of severe accidents.
+
+The project will use data science techniques and machine learning models to classify traffic accidents into different severity levels (e.g., slight, serious, or fatal). This classification will enable authorities to take proactive measures in high-risk areas or under specific conditions.
+
+Expected Outcome:
+
+A predictive model capable of accurately classifying the severity of traffic accidents based on various factors.
+
+Insights into how different features (weather, time, road conditions) influence the severity of accidents.
+
+Visualizations that highlight patterns in accident severity and provide actionable insights for public safety authorities.
+
+(Optional) A user interface where authorities can input current data to receive predictions on accident severity in real time.
+
+Work Completed:
+
+Data Preparation & Cleaning:
+
+Loaded the dataset and performed necessary cleaning to ensure quality data for analysis and modeling.
+
+Data Visualization:
+
+Created visualizations for the following aspects of U.S. traffic accident severity:
+
+Accident Locations
+
+Accident Times
+
+Weather Details
+
+Road Details
+
+Tech Stack:
+
+Programming Language: Python
+
+Libraries:
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+XGBoost
+
+LightGBM
+
+Matplotlib
+
+Seaborn
+
+Plotly
+
+Visualization Tools: Tableau or Power BI
+
+Conclusion:
+
+Firstly, we encoded some of the columns that we will work with as some charts and plots don't accept the categorical columns. After that, we extracted some additional data from the start time column such as year, month, day, and hour for doing some analysis and visualization on them. Finally, we started to analyze the dataset using different plots like scatterplots, pie charts, bar plots, KDE plots, join plots, and violin plots. After the analysis, we got some key insights:
+
+The state with the highest number of accidents is California.
+
+The top city with the highest number of accidents is Miami.
+
+2022 was the year with the maximum number of accidents.
+
+The rate of accidents increased on workdays like Friday, Thursday, and Wednesday.
+
+7 AM and 4 PM are the times with the highest rate of accidents.
+
+Traffic signal roads are the road conditions corresponding to the highest number of accidents.
+
