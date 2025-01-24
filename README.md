@@ -1,4 +1,4 @@
-# # US-Traffic-Accident-Severity-Prediction
+# # US-Traffic-&-Accident-Severity-Prediction
 
 # 🚀 Project Overview
 
